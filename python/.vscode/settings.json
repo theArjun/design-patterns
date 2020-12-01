@@ -1,6 +1,9 @@
 {
   "python.formatting.provider": "yapf",
-  "python.linting.flake8Args": ["--config=.flake8"],
+  "python.linting.flake8Args": [
+    "--config=.flake8",
+    "--ignore=E133",
+  ],
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
@@ -8,4 +11,5 @@
   "python.linting.flake8Enabled": true,
   "python.linting.flake8CategorySeverity.F": "Error",
   "python.linting.flake8CategorySeverity.E": "Error",
+  "python.pythonPath": ".env/bin/python",
 }
