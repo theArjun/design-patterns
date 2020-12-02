@@ -1,3 +1,5 @@
+package factory;
+
 /* Driver code for Factory design pattern. */
 
 import java.util.Scanner;

@@ -1,3 +1,5 @@
+package factory;
+
 /* Windows class than implements OS interface. */
 
 class Windows implements OS {

@@ -1,3 +1,5 @@
+package factory;
+
 class OSFactory {
     public static OS getInstance(String type){
         if (type.equals("ios")){
