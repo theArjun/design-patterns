@@ -1,0 +1,25 @@
+\documentclass{article} 
+
+\usepackage{minted} % This package allows to highlight the syntax of codes.
+\usepackage{geometry} % This package allows the editing of the page layout
+\usepackage{amsmath}  % This package allows the use of a large range of mathematical formula, commands, and symbols
+\usepackage{graphicx}  % This package allows the importing of images
+\graphicspath{ {./figures/} }
+
+\begin{document}
+
+\input{sections/titlepage.tex}
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+
+\input{sections/singleton.tex}
+\input{sections/factory.tex}
+\input{sections/abstractfactory.tex}
+\input{sections/prototype.tex}
+\input{sections/builder.tex}
+\input{sections/enum.tex}
+
+\end{document}
