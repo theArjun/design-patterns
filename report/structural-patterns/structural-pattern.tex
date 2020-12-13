@@ -1,0 +1,33 @@
+\documentclass{article} 
+
+\usepackage{minted} % This package allows to highlight the syntax of codes.
+\usepackage{geometry} % This package allows the editing of the page layout
+\usepackage{amsmath}  % This package allows the use of a large range of mathematical formula, commands, and symbols
+\usepackage{graphicx}  % This package allows the importing of images
+\usepackage{hyperref} % This package allows hyperlink reference. The context here is to create hyperlink in table of contents.
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\graphicspath{ {./figures/} }
+
+\begin{document}
+
+\input{sections/titlepage.tex}
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+
+\input{sections/adapter.tex}
+\input{sections/bridge.tex}
+\input{sections/composite.tex}
+\input{sections/decorator.tex}
+\input{sections/facade.tex}
+\input{sections/proxy.tex}
+
+\end{document}
